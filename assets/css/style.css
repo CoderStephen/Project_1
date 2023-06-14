@@ -9,6 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #ffffff;
 }
 
 #background-image {
@@ -24,15 +25,17 @@ body {
 h1,
 h2 {
     font-family: Sail, sans-serif;
-    color: #ffffff;
+    color: #b32a2a;
     text-transform: capitalize;
 }
 
 #logo {
     text-align: center;
-    padding: 100px 0px;
+    text-decoration: underline;
+    padding: 100px;
+    font-size: 250%;
 
-    animation: logo-zoom 5s forwards;
+    animation: logo-zoom 2s forwards;
 
 }
 
@@ -44,4 +47,26 @@ h2 {
     to {
         transform: scale(2);
     }
+}
+
+/* Navigation links */
+
+#menu {
+    font-size: 140%;
+    color: #b32a2a;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    position: center;
+    top: 50%;
+    left: 50%;
+    list-style-type: none;
+}
+/* you are not done styling here*/
+#menu a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
 }
