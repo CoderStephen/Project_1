@@ -64,9 +64,29 @@ h2 {
     left: 50%;
     list-style-type: none;
 }
+
 /* you are not done styling here*/
 #menu a {
     text-decoration: none;
     color: grey;
     text-transform: uppercase;
+}
+
+footer {
+    height: 100px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials>li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #b32a2a;
 }
